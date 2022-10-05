@@ -1,0 +1,27 @@
+{
+  "name": "litvis-bp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "test": "elm-test-rs"
+  },
+  "keywords": [],
+  "author": "RF",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-tooling": "^1.8.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-elm": "^0.8.0"
+  },
+    "prettier": {
+    "singleQuote": true,
+    "proseWrap": "always",
+    "trailingComma": "all",
+    "quoteProps": "consistent",
+    "plugins": [
+      "./node_modules/prettier-plugin-elm"
+    ]
+  }
+}

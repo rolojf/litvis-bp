@@ -1,0 +1,5 @@
+* Instrucciones
+1. Clonar este repositorio
+2. Crear documentos de markdown en subdirectorio ~src~.
+3. Seguir los ejemplos
+4. Editar con Visual-Studio-Code
